@@ -14,5 +14,6 @@ try:
         ans = num1 + num2
     elif operation == "-":
         ans = num1 - num2
+    print(ans)
 except Exception as e:
     print(f"an error occured {e}")
