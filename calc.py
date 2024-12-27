@@ -2,8 +2,8 @@ ans = None
 
 print("welcome to a simple calculator!")
 operation = input("please enter the operation (*, /, +, -): ")
-num1 = input("please enter the first number in the equation: ")
-num2 = input("please enter the second number in the equation: ")
+num1 = int(input("please enter the first number in the equation: "))
+num2 = int(input("please enter the second number in the equation: "))
 
 try:
     if operation == "*":
